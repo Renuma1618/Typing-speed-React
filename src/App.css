@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2); /* Calm bluish purple gradient */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.95); /* almost solid white for strong contrast */
+  backdrop-filter: blur(10px); /* subtle blur behind */
+  border-radius: 70px;
+  box-shadow: 0 12px 30px rgba(179, 17, 17, 0.25);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  color: #333; /* darker text for readability */
+}
+
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.word-box {
+  margin-bottom: 1rem;
+}
+
+.instruction {
+  font-size: 0.95rem;
+  color: #e0e0e0;
+}
+
+.word {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ff6f91;
+  margin: 0.5rem 0 1rem;
+  text-shadow: 0 2px 5px rgba(255, 111, 145, 0.6);
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  outline: none;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 0.3s ease;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+input:focus {
+  border-color: #ff6f91;
+  background-color: #fff;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  background: #ff6f91;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(255, 111, 145, 0.6);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: #ff4f70;
+  box-shadow: 0 6px 20px rgba(255, 79, 112, 0.8);
+}
+
+.result h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.result h3 {
+  font-size: 1.25rem;
+  color: #510c43;
+  text-shadow: 0 2px 5px rgba(0, 230, 118, 0.7);
+}
